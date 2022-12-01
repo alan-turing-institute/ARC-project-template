@@ -4,18 +4,24 @@
 
 ## Using this template
 
-***⚠️ Delete this section after you're done***
+***⚠️ Delete this section after you're done (up to but not including "Instllation"***
 
 ### What this does
 
+This repo has a blank directory structure for an ARC Python project, including setting up:
+
+- `poetry` - for dependencies (including development dependencies) and creating a Python package from your source code
+- `pre-commit` - to automatically run linters (`flake8`, `black`, and `isort`) for style checks and auto-formatting
+- A GitHub actions workflow to automatically run linters and tests on pushes or pull requests to the `main` and `develop` branches (by default)
+
 ### Pre-requisites
 
-- poetry
+- `poetry`
   - See https://python-poetry.org/docs/#installation for installation instructions
 
 ### Setup
 
-1. Create a new repo from this template, with name in the format `ARC-<project-name>`, and clone it locally
+1. Create a new repo from this template (green button "Use this template" top right -> create new repository), with a name in the format `ARC-<project-name>`, and clone it locally
 
 2. Edit the lines with `TODO` comments in `pyproject.toml` and `.github/workflows/actions.yml`, including changing the name of the `src/todo_packagename.
 
@@ -65,7 +71,7 @@
    poetry run pre-commit install --install-hooks
    ```
 
-### Common Commands
+### Common Commands/Tasks
 
 - To run commands in the poetry virtual environment (in a terminal), either:
   - Prefix the command you want to run with `poetry run`
@@ -88,3 +94,7 @@
     poetry run isort .
     poetry run flake8
     ```
+
+- Your source code files should go in the `src/todo_packagename` directory (with `todo_packagename` replaced with the name of your package). These will be available as a python package, i.e. you can do `from todo_mypackagename.myfile import myfunction` etc.
+
+- Add tests (in files with names like `test_*.py` and with functions with names starting `test_*`) the `tests/` directory.
