@@ -23,7 +23,7 @@ This repo has a blank directory structure for an ARC Python project, including s
 
 1. Create a new repo from this template (green button "Use this template" top right -> create new repository), with a name in the format `ARC-<project-name>`, and clone it locally
 
-2. Edit the lines with `TODO` comments in `pyproject.toml` and `.github/workflows/actions.yml`, including changing the name of the `src/todo_packagename.
+2. Edit the lines with `TODO` comments in `pyproject.toml` and `.github/workflows/actions.yml`, including changing the name of the `src/todo_packagename` directory.
 
 3. Update and install Poetry dependencies
 
