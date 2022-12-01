@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "todo_packagename"  # TODO - rename src/todo_packagename and change here to reflect
+version = "0.1.0"
+description = ""  # TODO
+authors = ["Applied Research Centre, The Alan Turing Institute <arc@turing.ac.uk>"]  # TODO
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"  # TODO
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=6.0.0"
+pytest-mock = "*"
+black = ">=22.10.0"
+flake8 = ">=6.0.0"
+isort = ">=5.10.1"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
