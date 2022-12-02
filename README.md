@@ -4,7 +4,7 @@
 
 ## Using this template
 
-***⚠️ Delete this section after you're done (up to but not including "Instllation"***
+***⚠️ Delete this section after you're done (up to but not including "Installation")***
 
 ### What this does
 
