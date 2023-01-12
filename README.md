@@ -41,6 +41,13 @@ This repo has a blank directory structure for an ARC Python project, including s
 
 5. Update the README with a description of the project and fill the other sections marked as TODO
 
+
+## Links (internal only):
+
+- **Statement of work:** **TODO**
+- **Report:** **TODO**
+- **SharePoint folder:** **TODO**
+
 ## Installation
 
 1. Clone this repository
@@ -50,13 +57,6 @@ This repo has a blank directory structure for an ARC Python project, including s
    ```bash
    pip install .
    ```
-
-## Links (internal only):
-
-- **Statement of work:** **TODO**
-- **Report:** **TODO**
-- **SharePoint folder:** **TODO**
-
 
 ## Usage
 
