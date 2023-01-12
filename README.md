@@ -2,6 +2,13 @@
 
 **TODO** A description of the project
 
+## Links (internal only):
+
+- **Statement of work:** **TODO**
+- **Report:** **TODO**
+- **SharePoint folder:** **TODO**
+
+
 ## Using this template
 
 ***⚠️ Delete this section after you're done (up to but not including "Installation")***
