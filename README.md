@@ -80,6 +80,15 @@ This repo has a blank directory structure for an ARC Python project, including s
 
 ### Common Commands/Tasks
 
+- To add dependencies to the poetry environment:
+
+   ```bash
+   poetry add <PACKAGE_NAME>
+   ```
+
+  See [the poetry documentation](https://python-poetry.org/docs/basic-usage/#specifying-dependencies) for more details on specifying dependencies.
+
+
 - To run commands in the poetry virtual environment (in a terminal), either:
   - Prefix the command you want to run with `poetry run`
     - e.g. `poetry run python myscript.py`
@@ -88,10 +97,10 @@ This repo has a blank directory structure for an ARC Python project, including s
 
 - To run tests:
 
-   ```bash
-   poetry run pytest
-   ```
-
+  ```bash
+  poetry run pytest
+  ```
+  
 - To run linters:
   - If you have setup pre-commit `flake8`, `black`, and `isort` will run automatically before making commits
   - Or you can run them manually:
