@@ -41,12 +41,9 @@ This repo has a blank directory structure for an ARC Python project, including s
 
 5. Update the README with a description of the project and fill the other sections marked as TODO
 
+## Links
 
-## Links (internal only):
-
-- **Statement of work:** **TODO**
-- **Report:** **TODO**
-- **SharePoint folder:** **TODO**
+- e.g. to report and statement of work (if these can be shared)
 
 ## Installation
 
