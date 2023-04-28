@@ -4,8 +4,6 @@
 
 ## Using this template
 
-***⚠️ Delete this section after you're done (up to but not including "Installation")***
-
 ### What this does
 
 This repo has a blank directory structure for an ARC Python project, including setting up:
@@ -40,6 +38,9 @@ This repo has a blank directory structure for an ARC Python project, including s
    ```
 
 5. Update the README with a description of the project and fill the other sections marked as TODO
+
+6. Delete the "Using this template" section of this readme, and optionally the file `.github/workflows/update_template.yml`
+
 
 ## Links
 
