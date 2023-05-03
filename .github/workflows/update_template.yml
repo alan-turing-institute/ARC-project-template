@@ -33,4 +33,5 @@ jobs:
       - name: Push changes 
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          add_options: '-u'
           commit_message: ':arrow_up: Update poetry and pre-commit dependencies'
