@@ -29,8 +29,8 @@ jobs:
 
       - name: Lint
         run: |
-          poetry run black --check .
-          poetry run isort --check-only .
+          poetry run black --check --diff .
+          poetry run isort --check-only --diff .
           poetry run flake8
 
       - name: Run tests
