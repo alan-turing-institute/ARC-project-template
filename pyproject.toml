@@ -6,7 +6,7 @@ authors = ["Applied Research Centre, The Alan Turing Institute <arc@turing.ac.uk
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"  # TODO
+python = "^3.10"  # TODO
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
